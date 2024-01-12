@@ -20,6 +20,7 @@ Instructions for setting up the environment and installing dependencies.
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Citation
 
