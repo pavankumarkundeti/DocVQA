@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 ## Citation
 
-If you find this work useful, please consider citing the following:
+If you find this work useful, consider citing the following:
 
 ```bibtex
 @InProceedings{docvqa_wacv,
