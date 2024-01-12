@@ -1,6 +1,6 @@
 # DocVQA
 This repository contains the dataset and code for reproducing results of the DocVQA paper, an exploration into Document Visual Question Answering using BERT and M4C models.
-[DocVQA: A Dataset for VQA on Document Images](https://arxiv.org/abs/2007.00398)
+Paper can be found here - [DocVQA: A Dataset for VQA on Document Images](https://arxiv.org/abs/2007.00398)
 
 
 ## Dataset
