@@ -4,7 +4,7 @@ This repository contains the dataset and code for reproducing results of the Doc
 
 For an in-depth understanding of the original methodologies and findings, please refer to the paper, [DocVQA: A Dataset for VQA on Document Images,](https://arxiv.org/abs/2007.00398).
 
-Furthermore, you can access a detailed Technical Report, which provides more insight into the specifics of this project - [Technical Report](https://www.overleaf.com/project/6523e0bb952b3bf78d627861).
+Furthermore, you can access a detailed Technical Report, which provides more insight into the specifics of this project - [Technical Report](https://github.com/pavankumarkundeti/DocVQA/blob/main/DocVQA-TechnicalReport.pdf).
 
 ## Dataset
 
