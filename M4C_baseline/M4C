@@ -1,0 +1,48 @@
+Implementing M4C model
+Follow these instructions closely:
+
+1. Setting Up Your Environment:
+   - Open a Linux terminal on your computer.
+   - Ensure that you have Python installed. You can check this by typing `python --version` in your terminal. If it's not installed, download and install it from the official Python website.
+
+2. Install Git:
+   - Git is used to clone repositories. Install it by running `sudo apt-get install git`.
+
+3. Clone the MMF Repository:
+   - Clone the MMF repository using Git with the command: `git clone https://github.com/facebookresearch/mmf.git`.
+   - Navigate to the cloned directory: `cd mmf`.
+
+4. Install MMF:
+   - In the MMF directory, install MMF by running `pip install --editable .`.
+
+5. Prepare Your Dataset:
+   - Create a new directory for your dataset: `mkdir ~/DocVQA`.
+   - Move your DocVQA dataset into this folder. If you haven’t downloaded it yet, visit the DocVQA dataset website and follow their instructions for downloading.
+
+6. Prepare OCR Data:
+   - You need OCR data for your document images. This is provided with the DocVQA dataset.
+
+7. Adapt Configuration for M4C:
+   - You need to create or adapt a configuration file for training M4C on the DocVQA dataset. This might require some understanding of how configuration files work in MMF. Check the MMF documentation for guidance.
+
+8. Train the Model:
+   - Run the training command, adjusting paths to your dataset and configuration file:
+     ```
+     mmf_run dataset=docvqa \
+             model=m4c \
+             config=path/to/your/docvqa/config.yaml \
+             env.save_dir=./save/m4c
+     ```
+
+9. Evaluate the Model:
+   - After training, evaluate the model on the validation or test set of the DocVQA dataset:
+     ```
+     mmf_run dataset=docvqa \
+             model=m4c \
+             config=path/to/your/docvqa/config.yaml \
+             env.save_dir=./save/m4c \
+             run_type=val \
+     ```
+
+--> Debug and Iterate
+
